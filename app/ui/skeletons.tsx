@@ -82,6 +82,7 @@ export function LatestInvoicesSkeleton() {
   );
 }
 
+// we do not DashboardSkeleton any more because of stream every component individually.(Suspense)
 export default function DashboardSkeleton() {
   return (
     <>
