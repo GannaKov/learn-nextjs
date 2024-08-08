@@ -1,4 +1,4 @@
-
+import React from 'react';
 import '@/app/ui/global.css';  // Import global styles
 import { inter } from '@/app/ui/fonts';// Import fonts
 import { Metadata } from 'next';
@@ -19,8 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-        
-        {children}
+          {children}
+    
         {/* <div className='bg-black w-full text-white' >FOOTER</div> */}
       </body>
     </html>
